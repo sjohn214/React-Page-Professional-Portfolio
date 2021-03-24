@@ -1,10 +1,14 @@
 {
   "name": "react-page-professional-portfolio",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
+  "homepage": "https://sjohn214.github.io/React-Page-Professional-Portfolio",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd client && npm install",
+    "start": "cd client && npm run start && react-scripts start"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,7 @@
   "bugs": {
     "url": "https://github.com/sjohn214/React-Page-Professional-Portfolio/issues"
   },
-  "homepage": "https://github.com/sjohn214/React-Page-Professional-Portfolio"
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
